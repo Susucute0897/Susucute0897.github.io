@@ -1,0 +1,33 @@
+.card {
+    color: #6c757d;
+  }
+  .image img{
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card:hover{
+    border: 1px solid #6c757d;
+    transition: 0.5s;
+  }
+  
+  .card-body .btn-detail {
+    width: 100%;
+  }
+  
+  .card-body .btn-detail .btn {
+    float: right;
+  }
+  
+  .card-title:hover {
+    cursor: pointer;
+    color: #000;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }

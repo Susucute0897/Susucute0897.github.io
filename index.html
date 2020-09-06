@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon - Hiển thị bên cạnh title -->
+    <link rel="icon" href="images/19.jpg" type="image/x-icon">
+    <!-- Nhúng vào để có thể sử dụng icon cho toàn bộ trang -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Nhúng(Sử dụng) file css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="component.css">
+    <title>Home Page</title>
+    <iframe id="music" src="music/di cung em.mp3" loop allow="autoplay" style="display:none" id="iframeAudio"></iframe>
+</head>
+
+<body>
+    <!-- Thẻ chứa toàn bộ trang web -->
+    <div class="container">
+        <!-- Phần tiêu đề -->
+        <header class="header">
+            <!-- Banner-->
+            <div class="banner">
+                <div class="text">
+                    <h1>My Website</h1>
+                    <p>Mê Phim.</p>
+                </div>
+
+            </div>
+            <!-- Menu -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./list.html">Hot Film</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                List
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item"
+                                    href="https://tix.vn/review/7690-review-hai-phuong-phim-hanh-dong-viet-mau-lua-nhat-ke-tu-dong-mau-anh-hung">Hai
+                                    Phượng</a>
+                                <a class="dropdown-item" href="#">Train To Busan</a>
+                                <a class="dropdown-item" href="#">Chị chị em em</a>
+
+                                <a class="dropdown-item" href="#">Friendzone</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <div>
+
+            </div>
+        </header>
+        <!-- Phần nội dung -->
+        <div class="content">
+            <!-- Phần Content bên trái -->
+            <div class="left-column">
+                <div class="card">
+                    <h2>Review Film</h2>
+                    <h5> "Nhắm mắt thấy mùa hè", Aug 20, 2020</h5>
+                    <img src="images/12.jpg" width="600">
+                    </br>
+                    <p> Đôi khi xem một bộ phim có nội dung lớn lao, thông điệp sâu sắc lại không thật sự chạm đến
+                        trái
+                        tim bằng một phim
+                        rất đỗi bình thường nhưng lại gần gũi với cảm xúc.
+                        </br>
+                        Nhắm Mắt Thấy Mùa Hè thật sự là một phim gây bất ngờ với một nội dung chỉn chu, từng chi
+                        tiết
+                        nhỏ đều được chăm chút kỹ lưỡng mà đội ngũ sản xuất trẻ,
+                        đặc biệt là nữ đạo diễn Cao Thuý Nhi đã truyền hết tâm huyết vào tác phẩm. Đọc những câu
+                        chuyện
+                        hậu trường bên lề ấy, rõ ràng là cả ê-kíp đều gặp vô vàn khó khăn
+                        để hoàn tất một bộ phim với 90% bối cảnh được quay ở Nhật Bản, thế mà những người trẻ đầy
+                        nhiệt
+                        huyết ấy đã làm tốt hơn những bộ phim hài hời hợt mà khán giả phải chịu đựng suốt thời gian
+                        qua.
+                        </br>
+                    <p> Nội dung của Nhắm Mắt Thấy Mùa Hè đơn giản lắm. Đó là câu chuyện về cô gái trẻ một mình đến
+                        thị
+                        trấn Higashikawa thuộc tỉnh Hokkaido của Nhật Bản để tìm kiếm người cha đi mãi không về.
+                        Khi đặt chân đến vùng đất có tuyết rơi mùa hè ấy, Hạ (Phương Anh Đào) nhanh chóng rơi vào
+                        một
+                        nỗi buồn xót xa nhưng thay vì ủ rũ trong suốt những ngày còn lại, Hạ kết thân cùng nhóm học
+                        trò
+                        đam mê chụp ảnh của chàng trai bản xứ Akira (Takafumi Akutsu). Cùng nhau, họ khám phá và
+                        trải
+                        nghiệm những nơi mà cha Hạ (NSƯT Công Ninh) từng đi qua. Trong những tháng ngày trải nghiệm
+                        ấy,
+                        dù có những bất đồng về mặt ngôn ngữ, tính cách nhưng Hạ và Akira dần phải lòng nhau
+                    </p>
+                    </br>
+                    <img src="images/11.jpg" width="600">
+                    </br>
+                    <p> Cách mà phim khai thác tình cảm giữa hai người thật trong sáng làm sao, mọi thứ diễn ra vô
+                        cùng
+                        nhẹ nhàng nhưng qua những điều nhẹ nhàng đó, một điều lớn lao nảy sinh trong họ.
+                        Phải chăng khi con người ta đã trải qua nhiều đau khổ, họ chỉ cần bên nhau bình yên thế là
+                        đủ?
+                        </br>
+                        Có những khoảnh khắc tưởng chừng như rất quen thuộc, nhưng sao khi lên màn ảnh lại lấy đi
+                        quá
+                        nhiều nước mắt của khán giả đến như thế? Từng bước một, Nhắm Mắt Thấy Mùa Hè
+                        đưa khán giả qua các cung bậc cảm xúc một cách khéo léo và thật tinh tế. Người xem vừa cảm
+                        thấy
+                        sự lãng mạn, ấm áp nhưng cảm giác đó nhanh chóng bị thay thế bởi một xúc cảm dâng trào hơn.
+                        </br>
+                        kết phim trên màn ảnh không phải là một cái kết hạnh phúc nhưng theo cảm nhận của người
+                        viết, đó
+                        là một cái kết trọn vẹn, đẹp và buồn
+                    </p>
+                    </br>
+                    <img src="images/10.png" width="600">
+
+                    </br>
+                    <p> Nếu một ngày bạn không thể nhìn thấy được nữa, hay lắng nghe, hay không còn nói được, bạn sẽ
+                        muốn gì? Tương lai luôn là một ẩn số, con người càng tò mò, càng hoang mang trước những gì
+                        sắp
+                        đến,
+                        chi bằng tận hưởng hiện tại và sống cho trọn vẹn nhất
+                        </br>
+                        Với những khán giả đã quen với dòng phim nhẹ nhàng, nhiều thoại, Nhắm Mắt Thấy Mùa Hè chắc
+                        chắn
+                        là một lựa chọn mà bạn không thể hối hận. Với những khán giả vốn yêu thích một phim có tiết
+                        tấu
+                        nhanh,
+                        đôi khi sống chậm lại, cảm nhận những điều nhỏ nhặt xung quanh cũng không tồi. Hãy thưởng
+                        thức
+                        phim một cách trọn vẹn các bạn nhé.
+                    </p>
+                    </br>
+
+                </div>
+                <div class="card">
+                    <h2>Mắt Biếc</h2>
+                    <h5> Nguyễn Nhật Ánh , Aug 20, 2020</h5>
+                    <img src="images/14.jpg" width="600">
+                    <p> Hà Lan...</p>
+                    <p>Mắt biếc là bộ phim Việt Nam của đạo diễn Victor Vũ được xây dựng dựa trên tiểu thuyết
+                     cùng tên của tác giả Nguyễn Nhật ánh được phát hành năm 1990.
+                     Không lộng lẫy hoành tráng như Tôi Thấy Hoa Vàng Trên Cỏ Xanh, Mắt Biếc có những khung hình bình yên nhẹ nhàng đến lạ.</p>
+                </div>
+                <div class="card">
+                    <div class="text">
+                        <h2>Poster</h2>
+                    </div>
+                    <div class="list-item">
+                        <image src="images/24.jpg" />
+                        <image src="images/25.jpg" />
+                        <image src="images/26.jpg" />
+                    </div>
+
+
+
+                </div>
+            </div>
+            <!-- Phần Content bên phải -->
+            <div class="right-column">
+                <div class="card card-1">
+                    <h2>Introduction</h2>
+                    <img src="images/5.jpg" height="400px">
+                    </br>
+                    <p>Mê Phim là một trang blog chuyên review phim;
+                        nhận xét, đánh giá, tóm tắt nội dung các phim chiếu rạp
+                        Việt Nam và Hollywood với cảm nhận cá nhân. Ngoài ra,
+                        Blog còn tổng hợp tin tức về điện ảnh, những câu chuyện hậu trường
+                        và các diễn viên trong phim....</p>
+                </div>
+                <div class="card card-2">
+                    <h3>Popular Post</h3>
+                    <img src="images/19.jpg" height="400px">
+
+                </div>
+                <div class="card card-3">
+                    <h3>Follow Me</h3>
+                    <a href="https://www.facebook.com/profile.php?id=100015409480509/">Facebook</a>
+                    </br>
+                    <a href="https://www.instagram.com/?hl=vi">Instagram</a>
+
+                    <div class="card">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Login
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input type="text" class="form-control" placeholder="Your email"
+                                            aria-label="username" aria-describedby="basic-addon2">
+                                    </div>
+                                    <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-primary">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <p>..</p>
+                </div>
+            </div>
+        </div>
+        <!-- Phần chân trang -->
+        <div class="footer">
+            <!-- Footer -->
+            <!-- Footer -->
+            <footer class="page-footer font-small cyan darken-3">
+
+                <!-- Footer Elements -->
+                <div class="container">
+
+                    <!-- Grid row-->
+                    <div class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-12 py-5">
+                            <div class="mb-5 flex-center">
+
+                                <!-- Facebook -->
+                                <a class="fb-ic">
+                                    <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                                </a>
+                              
+                                <!-- Google +-->
+                                <a class="gplus-ic">
+                                    <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                                </a>
+                                <!--Linkedin -->
+                                <a class="li-ic">
+                                    <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                                </a>
+                                <!--Instagram-->
+                                <a class="ins-ic">
+                                    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row-->
+
+                </div>
+                <!-- Footer Elements -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© Susu
+                </br>
+                      <a href="https://mdbootstrap.com/"> Email: phanhanh0897@gmail.com</a>
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+            </footer>
+            <!-- Footer -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
